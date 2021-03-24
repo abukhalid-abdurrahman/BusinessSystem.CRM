@@ -1,0 +1,118 @@
+﻿@model BusinessSystem.Database.Models.DataTransferObjects.Request.PartnerRequestModel
+
+@{
+    ViewData["Title"] = "Add Partner";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@section Scripts
+{
+    <script src="~/plugins/dropify/dropify.min.js"></script>
+    <script src="~/plugins/blockui/jquery.blockUI.min.js"></script>
+    <!-- <script src="plugins/tagInput/tags-input.js"></script> -->
+    <script src="~/assets/js/users/account-settings.js"></script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+@section Styles
+{
+    <link href="~/assets/css/users/account-setting.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="~/plugins/dropify/dropify.min.css">
+}
+
+<div class="layout-px-spacing">
+    <form asp-action="New" asp-controller="Partners" method="post" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+        <div class="account-settings-container layout-top-spacing">
+            <div class="account-content">
+                <div class="scrollspy-example" data-spy="scroll" data-target="#account-settings-scroll" data-offset="-100">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 layout-spacing">
+                            <div id="general-info" class="section general-info">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="info">
+                                    <h6 class="">General Information</h6>
+                                    <div class="row">
+                                        <div class="col-lg-11 mx-auto">
+                                            <div class="row">
+                                                <div class="col-xl-2 col-lg-12 col-md-4">
+                                                    <div class="upload mt-4 pr-md-4">
+                                                        <input asp-for="PartnerImage" type="file" id="input-file-max-fs" class="dropify" data-default-file="/assets/img/200x200.jpg" data-max-file-size="2M" />
+                                                        <p class="mt-2"><i class="flaticon-cloud-upload mr-1"></i> Upload Picture</p>
+                                                        <span asp-validation-for="PartnerImage" class="text-danger"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-10 col-lg-12 col-md-8 mt-md-0 mt-4">
+                                                    <div class="form">
+                                                        <div class="row">
+                                                            <div class="col-md-11 mx-auto">
+                                                                <div class="form-group">
+                                                                    <label for="Username">Full Name (User Name)</label>
+                                                                    <input id="Username" name="UserName" class="form-control mb-4" placeholder="Full Name" maxlength="20">
+                                                                    <span asp-validation-for="Username" class="text-danger"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-11 mx-auto">
+                                                                <div class="form-group">
+                                                                    <label for="Login">Login</label>
+                                                                    <input name="Login" id="Login" class="form-control mb-4" placeholder="Login" maxlength="20"/>
+                                                                    <span asp-validation-for="Login" class="text-danger"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-11 mx-auto">
+                                                                <div class="form-group">
+                                                                    <label asp-for="Email">E-mail</label>
+                                                                    <input asp-for="Email" class="form-control mb-4" placeholder="E-mail" maxlength="40"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-11 mx-auto">
+                                                                <div class="form-group">
+                                                                    <label asp-for="PhoneNumber">Phone Number</label>
+                                                                    <input asp-for="PhoneNumber" class="form-control mb-4" placeholder="Phone Number" maxlength="15"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-11 mx-auto">
+                                                                <div class="form-group">
+                                                                    <label for="Password" class="control-label">Partner Password</label>
+                                                                    <input id="Password" name="Password" class="form-control" placeholder="Password"/>
+                                                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-12 layout-spacing">
+                            <div id="about" class="section about">
+                                <div class="info">
+                                    <h5 class="">About</h5>
+                                    <div class="row">
+                                        <div class="col-md-11 mx-auto">
+                                            <div class="form-group">
+                                                <label asp-for="Description">Partner Description</label>
+                                                <textarea asp-for="Description" class="form-control" placeholder="Tell something interesting about partner" rows="10" maxlength="2000"></textarea>
+                                                <span asp-validation-for="Description" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="account-settings-footer">
+                <div class="as-footer-container">
+                    <button id="multiple-reset" class="btn btn-primary" type="reset">Reset All</button>
+                    <button id="multiple-messages" class="btn btn-dark" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

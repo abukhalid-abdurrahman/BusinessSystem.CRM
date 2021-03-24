@@ -1,0 +1,34 @@
+﻿@model BusinessSystem.CRM.Models.ErrorViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>Error @Model.StatusCode | BusinessSystem.CRM </title>
+    <link rel="icon" type="image/x-icon" href="~/assets/img/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/pages/error/style-400.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body class="error404 text-center">
+    <div class="container-fluid error-content">
+        <div class="">
+            <h1 class="error-number">@Model.StatusCode</h1>
+            <p class="mini-text">Ooops!</p>
+            <p class="error-text mb-4 mt-1">@Model.StatusMessage</p>
+            <a href="~/Home/Index" class="btn btn-primary mt-5">Go Home</a>
+        </div>
+    </div>
+    <script src="~/assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="~/bootstrap/js/popper.min.js"></script>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

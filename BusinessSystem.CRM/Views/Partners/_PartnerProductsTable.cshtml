@@ -1,0 +1,83 @@
+﻿@model List<BusinessSystem.Database.Models.DataTransferObjects.Response.GoodResponseModel>
+
+<div id="goodModal" class="modal animated fadeInDown show" role="dialog" aria-labelledby="goodModalTitleLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header" id="goodModalTitleLabel">
+            <h5 class="modal-title" id="goodModalTitleHeader">Good properties</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <form class="mt-0" method="POST" action="/Good/Create/" enctype="multipart/form-data" id="good-form">
+            <div class="modal-body">
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="UserId" value="@ViewBag.SelectedPartnerId">
+                <div class="form-group">
+                    <div class="upload mt-4 pr-md-4">
+                        <p class="mt-2"><i class="flaticon-cloud-upload mr-1"></i>Upload Picture: </p>
+                        <input type="file" id="input-file-max-fs" class="dropify" name="GoodImage" data-max-file-size="2M" accept="image/jpeg,image/png"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="label-primary" for="categories-list-select">Category:</label>
+                    <select class="form-control" name="CategoryId" id="categories-list-select">
+                        <option disabled>Select Category</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="label-primary" for="good-name">Name:</label>
+                    <input type="text" class="form-control mb-2" name="GoodName" id="good-name" placeholder="Good Name">
+                </div>
+                <div class="form-group">
+                    <label class="label-primary" for="good-desc">Description:</label>
+                    <input type="text" class="form-control mb-2" name="GoodDescription" id="good-desc" placeholder="Good Description">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Discard</button>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+   </div>
+</div>
+
+<div class="table-responsive">
+    <button type="button" class="btn btn-primary mb-2 mr-2 layout-top-spacing" data-toggle="modal" data-target="#goodModal" style="float: right;">
+        Add new Good
+    </button>
+    <table class="table table-bordered table-hover table-striped table-checkable table-highlight-head mb-4">
+        <thead>
+        <tr>
+            <th class="">ID</th>
+            <th class="">Good Name</th>
+            <th class="">Category</th>
+            <th class="">Description</th>
+            <th class="">Create Date</th>
+        </tr>
+        </thead>
+        <tbody id="goods-table-body">
+        @foreach (var good in Model)
+        {
+            <tr>
+                <td>
+                    @good.GoodId
+                </td>
+                <td>
+                    @good.GoodName
+                </td>
+                <td>
+                    @good.CategoryName
+                </td>
+                <td>
+                    <p class="mb-0">@good.GoodDescription</p>
+                </td>
+                <td>
+                    @good.CreateDate
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

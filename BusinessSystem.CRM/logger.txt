@@ -1,0 +1,625 @@
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 2/28/2021 11:25:56 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.CategoryController.CreateCategory (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Time: 2/28/2021 11:26:07 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.CategoryController.CreateCategory (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Time: 2/28/2021 11:26:20 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.CategoryController.CreateCategory (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Time: 2/28/2021 11:26:20 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.CategoryController.CreateCategory (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Time: 2/28/2021 11:26:20 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.CategoryController.CreateCategory (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Time: 2/28/2021 11:26:20 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.CategoryController.CreateCategory (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Time: 2/28/2021 11:26:20 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.CategoryController.CreateCategory (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Application is shutting down...
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 5:16:33 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Time: 3/2/2021 5:16:51 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 5:19:03 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Time: 3/2/2021 5:20:52 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Time: 3/2/2021 5:21:12 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 5:24:27 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Time: 3/2/2021 5:25:22 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 5:28:53 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 5:35:05 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(20)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 5:38:48 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 5:39:29 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Time: 3/2/2021 5:39:29 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 5:50:42 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.Edit (BusinessSystem.CRM)] Excepton[22001: value too long for type character varying(50)]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 6:20:25 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:25 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:25 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:25 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:26 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:26 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:26 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:26 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:26 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:27 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:27 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:27 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:28 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:28 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:28 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:28 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:28 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:29 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:29 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:29 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:29 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:29 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:30 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:30 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:30 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:30 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:30 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:31 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:31 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:31 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:31 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:31 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:32 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:32 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:32 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:32 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:20:32 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:22:19 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:22:25 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Time: 3/2/2021 6:22:36 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Time: 3/2/2021 6:23:37 PM->User: ExceptionFilter->Error Message: Action[BusinessSystem.CRM.Controllers.UsersController.RemoveUser (BusinessSystem.CRM)] Excepton[42601: syntax error at or near "WHERE"]
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: http://127.0.0.1:9573
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+'MS-ASPNETCORE-TOKEN' does not match the expected pairing token 'f826b7c7-cc8b-41e3-aa2a-eb91bfeb793a', request rejected.
+Now listening on: http://127.0.0.1:16819
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: http://127.0.0.1:18166
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: http://127.0.0.1:46279
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: http://127.0.0.1:32070
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: http://127.0.0.1:20573
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: http://127.0.0.1:27763
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: E:\Faridun's Projects\Faridun's\BusinessSystem.Solutions\BusinessSystem.CRM

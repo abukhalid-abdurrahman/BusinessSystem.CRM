@@ -1,0 +1,63 @@
+﻿@model List<BusinessSystem.Database.Models.DataTransferObjects.Response.CategoryResponseModel>
+
+@section Styles
+{
+    <link href="~/plugins/animate/animate.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/components/custom-modal.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/tables/table-basic.css" rel="stylesheet" type="text/css" />
+}
+
+<div id="categoryModal" class="modal animated fadeInDown show" role="dialog" aria-labelledby="categoryModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header" id="categoryModalLabel">
+            <h5 class="modal-title" id="categoryModalLabelHeader">Category properties</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <form class="mt-0" method="POST" action="/Category/Create/" id="category-form">
+            <div class="modal-body">
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="userId" value="@ViewBag.SelectedPartnerId">
+                <div class="form-group">
+                    <input type="text" class="form-control mb-2" name="Name" id="category-name" placeholder="Category Name">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal"><i class="flaticon-cancel-12"></i> Discard</button>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+   </div>
+</div>
+
+<div class="table-responsive">
+    <button type="button" class="btn btn-primary mb-2 mr-2 layout-top-spacing" data-toggle="modal" data-target="#categoryModal" style="float: right;">
+        Add new category
+    </button>
+    <table class="table table-bordered table-hover table-striped table-checkable table-highlight-head mb-4">
+        <thead>
+        <tr>
+            <th class="">ID</th>
+            <th class="">Category Name</th>
+            <th class="">Create Date</th>
+        </tr>
+        </thead>
+        <tbody id="categories-table-body">
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>
+                    @category.CategoryId
+                </td>
+                <td>
+                    <p class="mb-0">@category.CategoryName</p>
+                </td>
+                <td>@category.CreateDate.ToShortDateString()</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
