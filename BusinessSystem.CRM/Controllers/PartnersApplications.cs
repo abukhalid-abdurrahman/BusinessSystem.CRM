@@ -30,7 +30,14 @@ namespace BusinessSystem.CRM.Controllers
         [Route("PartnersApplications/Index/{partnerId?}")]
         public async Task<IActionResult> Index(int? partnerId)
         {
+            if (partnerId == null)
+                return StatusCode(401);
+            
             await SetUserProperties();
+            var inboxMails = await _partnersApplications.GetInboxApplicationsAsync(partnerId.Value);
+            var sentMails = await _partnersApplications.GetSentApplicationsAsync(partnerId.Value);
+            ViewBag.InboxMails = inboxMails;
+            ViewBag.SentMails = sentMails;
             return View();
         }
 
@@ -58,7 +65,7 @@ namespace BusinessSystem.CRM.Controllers
         [HttpPost]
         public async Task<JsonResult> RemoveApplication(MessagingEntity messagingEntity)
         {
-            await _messagingAdapter.ChangeMessageState(messagingEntity);
+            await _messagingAdapter.RemoveMessage(messagingEntity);
             return new JsonResult(new { statusCode = 200, message = "OK", data = messagingEntity });
         }
     }

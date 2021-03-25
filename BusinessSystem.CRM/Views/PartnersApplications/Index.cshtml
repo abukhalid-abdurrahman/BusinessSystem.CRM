@@ -73,80 +73,77 @@
                             </div>
                     
                             <div class="message-box">
-                                
                                 <div class="message-box-scroll" id="ct">
-                                    <div class="mail-item sentmail">
-                                        <div class="animated animatedFadeInUp fadeInUp" id="mailHeadingTwo">
-                                            <div class="mb-0">
-                                                <div class="mail-item-heading work collapsed"  data-toggle="collapse" role="navigation" data-target="#mailCollapseTwo" aria-expanded="false">
-                                                    <div class="mail-item-inner">
+                                    @if (ViewBag.SentMails != null)
+                                    {
+                                        foreach (var sentMail in ViewBag.SentMails)
+                                        {
+                                            <div class="mail-item sentmail">
+                                                <div class="animated animatedFadeInUp fadeInUp" id="mailHeading-@sentMail.Id">
+                                                    <div class="mb-0">
+                                                        <div class="mail-item-heading work collapsed" data-toggle="collapse" role="navigation" data-target="#mailCollapse-@sentMail.Id" aria-expanded="false">
+                                                            <div class="mail-item-inner">
 
-                                                        <div class="d-flex">
-                                                            <div class="n-chk text-center">
-                                                                <label class="new-control new-checkbox checkbox-primary">
-                                                                  <input type="checkbox" class="new-control-input inbox-chkbox">
-                                                                  <span class="new-control-indicator"></span>
-                                                                </label>
-                                                            </div>
-                                                            <div class="f-body">
-                                                                <div class="meta-mail-time">
-                                                                    <p class="user-email" data-mailTo="alan@mail.com">Alan</p>
-                                                                </div>
-                                                                <div class="meta-title-tag">
-                                                                    <p class="mail-content-excerpt" data-mailDescription='{"ops":[{"insert":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar feugiat consequat. Duis lacus nibh, sagittis id varius vel, aliquet non augue. Vivamus sem ante, ultrices at ex a, rhoncus ullamcorper tellus. Nunc iaculis eu ligula ac consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum mattis urna neque, eget posuere lorem tempus non. Suspendisse ac turpis dictum, convallis est ut, posuere sem. Etiam imperdiet aliquam risus, eu commodo urna vestibulum at. Suspendisse malesuada lorem eu sodales aliquam.\n"}]}'><span class="mail-title" data-mailTitle="Mozilla Update">Mozilla Update - </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar feugiat consequat. Duis lacus nibh, sagittis id varius vel, aliquet non augue. Vivamus sem ante, ultrices at ex a, rhoncus ullamcorper tellus. Nunc iaculis eu ligula ac consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum mattis urna neque, eget posuere lorem tempus non. Suspendisse ac turpis dictum, convallis est ut, posuere sem. Etiam imperdiet aliquam risus, eu commodo urna vestibulum at. Suspendisse malesuada lorem eu sodales aliquam.</p>
-                                                                    <div class="tags">
-                                                                        <span class="g-dot-primary"></span>
-                                                                        <span class="g-dot-warning"></span>
-                                                                        <span class="g-dot-success"></span>
-                                                                        <span class="g-dot-danger"></span>
+                                                                <div class="d-flex">
+                                                                    <div class="n-chk text-center">
+                                                                        <label class="new-control new-checkbox checkbox-primary">
+                                                                            <input type="checkbox" class="new-control-input inbox-chkbox">
+                                                                            <span class="new-control-indicator"></span>
+                                                                        </label>
                                                                     </div>
-                                                                    <p class="meta-time align-self-center">8:45 AM</p>
+                                                                    <div class="f-body">
+                                                                        <div class="meta-mail-time">
+                                                                            <p class="user-email" data-mailTo="@sentMail.RecipientUserName">@sentMail.RecipientUserName</p>
+                                                                        </div>
+                                                                        <div class="meta-title-tag">
+                                                                            <p class="mail-content-excerpt" data-mailDescription='{"ops":[{"insert":"@sentMail.ApplicationText\n"}]}'><span class="mail-title" data-mailTitle="Your Application For @sentMail.RecipientUserName">Your Application For @sentMail.RecipientUserName - </span>@sentMail.ApplicationText</p>
+                                                                            <p class="meta-time align-self-center">@sentMail.InsertDate</p>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                      
-                                    <div class="mail-item mailInbox">
-                                        <div class="animated animatedFadeInUp fadeInUp" id="mailHeadingFive">
-                                            <div class="mb-0">
-                                                <div class="mail-item-heading collapsed"  data-toggle="collapse" role="navigation" data-target="#mailCollapseFive" aria-expanded="false">
-                                                    <div class="mail-item-inner">
+                                        }
+                                    }
 
-                                                        <div class="d-flex">
-                                                            <div class="n-chk text-center">
-                                                                <label class="new-control new-checkbox checkbox-primary">
-                                                                  <input type="checkbox" class="new-control-input inbox-chkbox">
-                                                                  <span class="new-control-indicator"></span>
-                                                                </label>
-                                                            </div>
-                                                            <div class="f-head">
-                                                                <img src="~/assets/img/90x90.jpg" class="user-profile" alt="avatar">
-                                                            </div>
-                                                            <div class="f-body">
-                                                                <div class="meta-mail-time">
-                                                                    <p class="user-email" data-mailTo="kingAndy@mail.com">Andy King</p>
-                                                                </div>
-                                                                <div class="meta-title-tag">
-                                                                    <p class="mail-content-excerpt" data-mailDescription='{"ops":[{"insert":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar feugiat consequat. Duis lacus nibh, sagittis id varius vel, aliquet non augue. Vivamus sem ante, ultrices at ex a, rhoncus ullamcorper tellus. Nunc iaculis eu ligula ac consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum mattis urna neque, eget posuere lorem tempus non. Suspendisse ac turpis dictum, convallis est ut, posuere sem. Etiam imperdiet aliquam risus, eu commodo urna vestibulum at. Suspendisse malesuada lorem eu sodales aliquam.\n"}]}'><span class="mail-title" data-mailTitle="Hosting Payment Reminder">Hosting Payment Reminder -</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar feugiat consequat. Duis lacus nibh, sagittis id varius vel, aliquet non augue. Vivamus sem ante, ultrices at ex a, rhoncus ullamcorper tellus. Nunc iaculis eu ligula ac consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum mattis urna neque, eget posuere lorem tempus non. Suspendisse ac turpis dictum, convallis est ut, posuere sem. Etiam imperdiet aliquam risus, eu commodo urna vestibulum at. Suspendisse malesuada lorem eu sodales aliquam.</p>
-                                                                    <div class="tags">
-                                                                        <span class="g-dot-primary"></span>
-                                                                        <span class="g-dot-warning"></span>
-                                                                        <span class="g-dot-success"></span>
-                                                                        <span class="g-dot-danger"></span>
+                                    @if (ViewBag.InboxMails != null)
+                                    {
+                                        foreach (var inboxMail in ViewBag.InboxMails)
+                                        {
+                                            <div class="mail-item mailInbox">
+                                                <div class="animated animatedFadeInUp fadeInUp" id="mailHeading-@inboxMail.Id">
+                                                    <div class="mb-0">
+                                                        <div class="mail-item-heading collapsed" data-toggle="collapse" role="navigation" data-target="#mailCollapse-@inboxMail.Id" aria-expanded="false">
+                                                            <div class="mail-item-inner">
+
+                                                                <div class="d-flex">
+                                                                    <div class="n-chk text-center">
+                                                                        <label class="new-control new-checkbox checkbox-primary">
+                                                                            <input type="checkbox" class="new-control-input inbox-chkbox">
+                                                                            <span class="new-control-indicator"></span>
+                                                                        </label>
                                                                     </div>
-                                                                    <p class="meta-time align-self-center">6:28 PM</p>
+                                                                    <div class="f-body">
+                                                                        <div class="meta-mail-time">
+                                                                            <p class="user-email" data-mailTo="@inboxMail.SenderUserName">@inboxMail.SenderUserName</p>
+                                                                        </div>
+                                                                        <div class="meta-title-tag">
+                                                                            <p class="mail-content-excerpt" data-mailDescription='{"ops":[{"insert":"@inboxMail.ApplicationText\n"}]}'><span class="mail-title" data-mailTitle="Application From @inboxMail.SenderUserName">Application From @inboxMail.SenderUserName - </span>@inboxMail.ApplicationText</p>
+                                                                            <p class="meta-time align-self-center">@inboxMail.InsertDate</p>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
+                                        }
+                                    }
+
                                 </div>
                             </div>
 
@@ -155,113 +152,95 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left close-message"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                                     <h2 class="mail-title" data-selectedMailTitle=""></h2>
                                 </div>
+                                
+                                @if (ViewBag.SentMails != null)
+                                {
+                                    foreach (var sentMail in ViewBag.SentMails)
+                                    {
+                                            <div id="mailCollapse-@sentMail.Id" class="collapse" aria-labelledby="mailHeading-@sentMail.Id" data-parent="#mailbox-inbox">
+                                                <div class="mail-content-container sentmail" data-mailfrom="@sentMail.SenderUserName" data-mailto="@sentMail.RecipientUserName" data-mailcc="">
 
-                                <div id="mailCollapseTwo" class="collapse" aria-labelledby="mailHeadingTwo" data-parent="#mailbox-inbox">
-                                    <div class="mail-content-container sentmail" data-mailfrom="info@mail.com" data-mailto="alan@mail.com" data-mailcc="">
-
-                                        <div class="d-flex justify-content-between mb-3">
-                                            <div class="d-flex user-info">
-                                                <div class="f-body">
-                                                    <div class="meta-mail-time">
-                                                        <div class="">
-                                                            <p class="user-email" data-mailto="alan@mail.com"><span>To,</span> alan@mail.com</p>
+                                                    <div class="d-flex justify-content-between mb-3">
+                                                        <div class="d-flex user-info">
+                                                            <div class="f-body">
+                                                                <div class="meta-mail-time">
+                                                                    <div class="">
+                                                                        <p class="user-email" data-mailto="@sentMail.RecipientUserName"><span>To,</span> @sentMail.RecipientUserName</p>
+                                                                    </div>
+                                                                    <p class="mail-content-meta-date current-recent-mail">@sentMail.InsertDate</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                        <p class="mail-content-meta-date current-recent-mail">12/14/2019 -</p>
-                                                        <p class="meta-time align-self-center">8:45 AM</p>
+
+                                                        <div class="action-btns">
+                                                            <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Reply">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-left reply"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>
+                                                            </a>
+                                                            <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Forward">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-right forward"><polyline points="15 14 20 9 15 4"></polyline><path d="M4 20v-7a4 4 0 0 1 4-4h12"></path></svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mail-content" data-mailTitle="Your Application For @sentMail.RecipientUserName" data-maildescription='{"ops":[{"insert":"@sentMail.ApplicationText\n"}]}'> @sentMail.ApplicationText</p>
+                                                </div>
+                                            </div>
+                                    }
+                                }
+                                
+                                @if (ViewBag.InboxMails != null)
+                                {
+                                    foreach (var inboxMail in ViewBag.InboxMails)
+                                    {
+                                        <div id="mailCollapse-@inboxMail.Id" class="collapse" aria-labelledby="mailHeading-@inboxMail.Id" data-parent="#mailbox-inbox">
+                                            <div class="mail-content-container mailInbox" data-mailfrom="@inboxMail.SenderUserName" data-mailto="@inboxMail.RecipientUserName" data-mailcc="">
+
+                                                <div class="d-flex justify-content-between mb-5">
+                                                    <div class="d-flex user-info">
+                                                        <div class="f-body">
+                                                            <div class="meta-title-tag">
+                                                                <h4 class="mail-usr-name" data-mailtitle="Application From @inboxMail.SenderUserName">@inboxMail.SenderUserName</h4>
+                                                            </div>
+                                                            <div class="meta-mail-time">
+                                                                <p class="user-email" data-mailto="@inboxMail.RecipientUserName">@inboxMail.RecipientUserName</p>
+                                                                <p class="mail-content-meta-date current-recent-mail">@inboxMail.InsertDate</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="action-btns">
+                                                        <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Reply">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-left reply"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>
+                                                        </a>
+                                                        <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Forward">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-right forward"><polyline points="15 14 20 9 15 4"></polyline><path d="M4 20v-7a4 4 0 0 1 4-4h12"></path></svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <p class="mail-content" data-mailTitle="Application From @inboxMail.SenderUserName" data-maildescription='{"ops":[{"insert":"@inboxMail.ApplicationText\n"}]}'> @inboxMail.ApplicationText</p>
+                                                <div class="attachments">
+                                                    <h6 class="attachments-section-title">Your choice</h6>
+                                                    <div class="attachment file-pdf">
+                                                        <div class="media">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                                            <div class="media-body">
+                                                                <p class="file-name" style="margin-top: 7px;">Confirm Application</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="attachment file-folder">
+                                                        <div class="media">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                                                            <div class="media-body">
+                                                                <p class="file-name" style="margin-top: 7px;">Reject Application</p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-
-                                            <div class="action-btns">
-                                                <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Reply">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-left reply"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>
-                                                </a>
-                                                <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Forward">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-right forward"><polyline points="15 14 20 9 15 4"></polyline><path d="M4 20v-7a4 4 0 0 1 4-4h12"></path></svg>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <p class="mail-content" data-mailTitle="Mozilla Update" data-maildescription='{"ops":[{"insert":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar feugiat consequat. Duis lacus nibh, sagittis id varius vel, aliquet non augue. Vivamus sem ante, ultrices at ex a, rhoncus ullamcorper tellus. Nunc iaculis eu ligula ac consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum mattis urna neque, eget posuere lorem tempus non. Suspendisse ac turpis dictum, convallis est ut, posuere sem. Etiam imperdiet aliquam risus, eu commodo urna vestibulum at. Suspendisse malesuada lorem eu sodales aliquam.\n"}]}'> Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
-
-                                        <p>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-
-                                        <p>Best Regards,</p>
-                                        <p>Shaun Park</p>
-
-                                        <div class="attachments">
-                                            <h6 class="attachments-section-title">Attachments</h6>
-                                            <div class="attachment file-pdf">
-                                                <div class="media">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                                                    <div class="media-body">
-                                                        <p class="file-name">Confirm File</p>
-                                                        <p class="file-size">450kb</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="attachment file-folder">
-                                                <div class="media">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-                                                    <div class="media-body">
-                                                        <p class="file-name">Important Docs</p>
-                                                        <p class="file-size">2.1MB</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="attachment file-img">
-                                                <div class="media">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
-                                                    <div class="media-body">
-                                                        <p class="file-name">Photo.png</p>
-                                                        <p class="file-size">50kb</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div id="mailCollapseFive" class="collapse" aria-labelledby="mailHeadingFive" data-parent="#mailbox-inbox">
-                                    <div class="mail-content-container mailInbox" data-mailfrom="info@mail.com" data-mailto="kingAndy@mail.com" data-mailcc="">
-
-                                        <div class="d-flex justify-content-between mb-5">
-                                            <div class="d-flex user-info">
-                                                <div class="f-head">
-                                                    <img src="~/assets/img/90x90.jpg" class="user-profile" alt="avatar">
-                                                </div>
-                                                <div class="f-body">
-                                                    <div class="meta-title-tag">
-                                                        <h4 class="mail-usr-name" data-mailtitle="Hosting Payment Reminder">Andy King</h4>
-                                                    </div>
-                                                    <div class="meta-mail-time">
-                                                        <p class="user-email" data-mailto="kingAndy@mail.com">kingAndy@mail.com</p>
-                                                        <p class="mail-content-meta-date current-recent-mail">12/14/2019 -</p>
-                                                        <p class="meta-time align-self-center">6:28 PM</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="action-btns">
-                                                <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Reply">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-left reply"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>
-                                                </a>
-                                                <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Forward">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-right forward"><polyline points="15 14 20 9 15 4"></polyline><path d="M4 20v-7a4 4 0 0 1 4-4h12"></path></svg>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <p class="mail-content" data-mailTitle="Hosting Payment Reminder" data-maildescription='{"ops":[{"insert":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar feugiat consequat. Duis lacus nibh, sagittis id varius vel, aliquet non augue. Vivamus sem ante, ultrices at ex a, rhoncus ullamcorper tellus. Nunc iaculis eu ligula ac consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum mattis urna neque, eget posuere lorem tempus non. Suspendisse ac turpis dictum, convallis est ut, posuere sem. Etiam imperdiet aliquam risus, eu commodo urna vestibulum at. Suspendisse malesuada lorem eu sodales aliquam.\n"}]}'> Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </p>
-
-                                        <p>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-
-                                        <p>Best Regards,</p>
-                                        <p>Andy King</p>
-
-                                    </div>
-                                </div>
+                                        </div>       
+                                    }
+                                }
                             </div>
                         </div>                        
                     </div>
@@ -278,8 +257,7 @@
                                                         <div class="d-flex mb-4 mail-form">
                                                             <p>From:</p>
                                                             <select class="" id="m-form">
-                                                                <option value="info@mail.com">Info &lt;info@mail.com&gt;</option>
-                                                                <option value="shaun@mail.com">Shaun Park &lt;shaun@mail.com&gt;</option>
+                                                                <option value="@ViewBag.CurrentUser.Id">@ViewBag.CurrentUser.UserName</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -328,14 +306,7 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button id="btn-save" class="btn float-left"> Save</button>
-                                    <button id="btn-reply-save" class="btn float-left"> Save Reply</button>
-                                    <button id="btn-fwd-save" class="btn float-left"> Save Fwd</button>
-
                                     <button class="btn" data-dismiss="modal"> <i class="flaticon-delete-1"></i> Discard</button>
-
-                                    <button id="btn-reply" class="btn"> Reply</button>
-                                    <button id="btn-fwd" class="btn"> Forward</button>
                                     <button id="btn-send" class="btn"> Send</button>
                                 </div>
                             </div>
